@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  color: aquamarine;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: rgb(0, 0, 0);
+
+  &.scrolled {
+    background-color: var(--main-color);
+  }
+
+  .container {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+
+    .left {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 50px;
+        margin-right: 40px;
+      }
+      span {
+        margin-right: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
